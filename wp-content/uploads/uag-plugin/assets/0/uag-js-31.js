@@ -1,4 +1,7 @@
-document.addEventListener("DOMContentLoaded", function(){ jQuery(document).ready(function () {
+document.addEventListener("DOMContentLoaded", function(){ window.addEventListener("DOMContentLoaded", function(){
+	UAGBForms.init( {"block_id":"99b3ea4a","reCaptchaEnable":false,"reCaptchaType":"v2","reCaptchaSiteKeyV2":"","reCaptchaSecretKeyV2":"","reCaptchaSiteKeyV3":"","reCaptchaSecretKeyV3":"","afterSubmitToEmail":"petportraitsart79@gmail.com","afterSubmitCcEmail":"","afterSubmitBccEmail":"","afterSubmitEmailSubject":"Form Submission","sendAfterSubmitEmail":true,"confirmationType":"message","hidereCaptchaBatch":false,"captchaMessage":"Please fill up the above captcha.","confirmationUrl":""}, '.uagb-block-99b3ea4a', 31 );
+});
+jQuery(document).ready(function () {
 				let scope = jQuery(".wp-block-uagb-image-gallery.uagb-block-58fd4d5d");
 				if ( scope.length ) { 
 					scope.css("visibility", "visible");
